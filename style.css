@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(233, 8, 124);
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+}
+h1{
+    color: black;
+}
+a{
+    color: black;
+    text-decoration-line: none;
+}
+/*Child selector*/
+ul > li{
+    font-weight: bold;
+}
+/*sibling selector*/
+h1 + p{
+    color:blue;
+}
+/*:hover pseudo class*/
+a:hover{
+    background-color: rgb(153, 0, 255);
+}
+ul  li:hover{
+    color: #40032e;
+}
